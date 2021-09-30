@@ -1,0 +1,25 @@
+/*header begins here*/
+header {
+padding: 20px 35px;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+position: -webkit-sticky;
+position: sticky;
+top: 0;
+z-index: 9999;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+header nav ul li a {
+  padding: 10px 15px;
+  font-weight: lighter;
+  font-size: 30px;
+}
