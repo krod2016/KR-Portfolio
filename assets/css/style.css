@@ -1,11 +1,14 @@
+body {
+  background-color: #70C0E3;
+  font-family: 'Times New Roman', Times, serif;
+}
+
 /*header begins here*/
 header {
 padding: 20px 35px;
 display: flex;
 justify-content: space-between;
 flex-wrap: wrap;
-position: -webkit-sticky;
-position: sticky;
 top: 0;
 z-index: 9999;
 }
@@ -25,10 +28,14 @@ header nav ul li a {
 }
 
 /*about me section*/
+.about-me {
+  display: flex;
+}
+
 p {
-  font-size: 20px;
-  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
   text-align: justify;
+
 }
 
 img {
@@ -37,4 +44,31 @@ img {
 }
 
 /*work section*/
-/*contact info section*/
+.runbuddy, .horiseon, .LC, .OC, .SLC {
+  display: flex;
+}
+
+.Logan {
+display: flex;
+float: center;
+}
+
+.RH {
+  display: flex;
+  float: right;
+
+}
+
+.OS {
+  display: flex;
+  float: right;
+}
+
+/*footer*/
+.contact-info {
+  text-align: justify;
+  display: flex;
+  font-size: 20px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
