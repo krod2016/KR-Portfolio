@@ -10,7 +10,8 @@ display: flex;
 justify-content: space-between;
 flex-wrap: wrap;
 top: 0;
-z-index: 9999;
+background-color: #3795BE;
+color: #C7CCCE;
 }
 
 header nav ul {
@@ -25,16 +26,22 @@ header nav ul li a {
   padding: 10px 15px;
   font-weight: lighter;
   font-size: 30px;
+  color: #C7CCCE;
 }
 
 /*about me section*/
-.about-me {
+#about-me {
+  font-size: 30px;
+}
+
+.bio {
   display: flex;
+  font-size: 30px;
 }
 
 p {
   font-size: 25px;
-  text-align: justify;
+  justify-content: space-between;
 
 }
 
@@ -44,27 +51,96 @@ img {
 }
 
 /*work section*/
-.runbuddy, .horiseon, .LC, .OC, .SLC {
+#work {
+  width: 100%;
+  margin: 0 auto;
   display: flex;
+  flex-wrap: wrap;
 }
 
-.Logan {
+.work-pictures {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+  align-items: center;
+}
+
+.row1 {
+justify-content: right;
 display: flex;
-float: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+  align-items: center;
 }
 
-.RH {
-  display: flex;
-  float: right;
-
+.break {
+  flex-basis: 100%;
+  height: 0;
 }
 
-.OS {
-  display: flex;
-  float: right;
+.RB:hover, .LC:hover, .horiseon:hover,  .OC:hover, .SLC:hover{
+  position:relative;
+  top:-25px;
+  left:-35px;
+  width:500px;
+  height:auto;
+  display:block;
 }
+
+.RB img {
+  border-style: solid;
+  border-width: 5px;
+  border-color: darkblue;
+  padding: 0px;
+}
+
+.LC img {
+  border-style: solid;
+  border-width: 5px;
+  border-color: darkblue;
+  padding: 0px;
+}
+
+.horiseon img {
+  border-style: solid;
+  border-width: 5px;
+  border-color: darkblue;
+  padding: 0px;
+}
+
+.OC img {
+  border-style: solid;
+  border-width: 5px;
+  border-color: darkblue;
+  padding: 0px;
+}
+
+.SLC img {
+  border-style: solid;
+  border-width: 5px;
+  border-color: darkblue;
+  padding: 0px;
+}
+
+.section-title {
+  font-size: 30px;
+  text-align: right;
+  display: block;
+  }
 
 /*footer*/
+.contact {
+  font-size: 25px;
+  padding: 0px;
+}
+
 .contact-info {
   text-align: justify;
   display: flex;
