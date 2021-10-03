@@ -14,6 +14,7 @@
 https://github.com/krod2016/KR-Portfolio
 
 # Website 
+https://krod2016.github.io/KR-Portfolio/
 
 # Contribution
 * Made by Katrina Rodriguez
