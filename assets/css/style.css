@@ -67,17 +67,17 @@ img {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  padding: 10px;
-  align-items: center;
+  justify-content: space-around;
+  margin: 15px;
 }
 
-.row1 {
-justify-content: right;
-display: flex;
+.row2 {
+  justify-content: space-evenly;
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  padding: 10px;
-  align-items: center;
+  margin: 10px;
+  padding: 15px;
 }
 
 .break {
@@ -131,12 +131,11 @@ display: flex;
 
 .section-title {
   font-size: 30px;
-  text-align: right;
-  display: block;
+  text-align: center;
   }
 
 /*footer*/
-.contact {
+.methods {
   font-size: 25px;
   padding: 0px;
 }
