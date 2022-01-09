@@ -4,7 +4,7 @@
 * I want to show off my hard work, and be able to find a job in my field
 
 # Images
-![portfolio_homescreen](https://user-images.githubusercontent.com/88009884/148692790-6de7cd64-e371-4c48-8b82-ae2fda43d9ea.png)
+![portfolio_homepage](https://user-images.githubusercontent.com/88009884/148692872-a5a78812-0cff-43fa-a51d-a1de06203132.png)
 
 # Built With
 * CSS
